@@ -2,7 +2,7 @@
 
 English | [中文](./README.zh.md)
 
-**Generate Pop Mart style blind box figure series with consistent character design**
+**Generate designer toy / blind box figure series with consistent character design**
 
 <table>
 <tr>

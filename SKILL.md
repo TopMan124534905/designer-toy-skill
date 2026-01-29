@@ -1,16 +1,16 @@
 ---
 name: designer-toy
 description: >
-  Pop Mart风格盲盒玩偶/设计师玩具系列设计生成器。支持角色一致性保障、姿势多样性、丰富场景背景和专业打光。
+  盲盒玩偶/设计师玩具系列设计生成器。支持角色一致性保障、姿势多样性、丰富场景背景和专业打光。
   使用场景：当用户想要设计盲盒系列、潮玩手办、毛绒挂件、亚克力立牌时。
-  关键词：盲盒设计、Pop Mart、designer toy、vinyl figure、潮玩、chibi、角色锚点、群像单人一致性
+  关键词：盲盒设计、designer toy、vinyl figure、潮玩、chibi、角色锚点、群像单人一致性
 ---
 
 # Designer Toy 盲盒玩偶系列设计技能
 
 ## Overview
 
-生成 Pop Mart 风格的设计师玩偶/盲盒系列。**核心能力**：
+生成设计师玩偶/盲盒系列。**核心能力**：
 - **角色一致性保障**：确保群像和单人图中角色特征完全一致（发色、眼睛、比例）
 - **姿势多样性**：避免全部站姿，提供坐/趴/躺/悬浮等丰富姿势
 - **场景丰富度**：包含打光、背景、氛围的完整场景设计
@@ -46,7 +46,7 @@ flowchart TD
 ## LOCKED Identity (所有图片必须保持一致)
 
 ### Base Foundation
-Pop Mart style designer toy, vinyl figure collectible,
+Designer toy, vinyl figure collectible,
 professional product photography, studio lighting,
 chibi proportions, highly detailed collectible figure
 
@@ -177,7 +177,7 @@ chibi proportions, highly detailed collectible figure
 ## Collection Group Shot Prompt
 
 ### 1. Scene Setting (布景但不喧宾夺主)
-Pop Mart blind box collection display, professional product photography,
+Blind box collection display, professional product photography,
 [主题场景描述，如: cozy Halloween pumpkin patch setting],
 soft gradient background with subtle [主题元素] silhouettes in bokeh,
 foreground figures in sharp focus, background softly blurred,
@@ -264,7 +264,7 @@ depth of field with f/2.8 equivalent bokeh
 请保持这个角色的所有视觉特征（毛色、服装颜色、配件、比例）与群像完全一致！
 
 ### 1. Foundation
-Pop Mart style designer toy, [材质类型] figure collectible,
+Designer toy, [材质类型] figure collectible,
 professional product photography, chibi proportions
 
 ### 2. Character Anchor (从角色锚点完整复制！)

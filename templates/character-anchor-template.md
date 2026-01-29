@@ -16,7 +16,7 @@
 
 #### Base Foundation
 ```
-Pop Mart style designer toy, vinyl figure collectible,
+Designer toy, vinyl figure collectible,
 professional product photography, studio lighting,
 chibi proportions, highly detailed collectible figure
 ```
