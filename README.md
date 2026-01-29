@@ -1,73 +1,231 @@
-# Designer Toy Skill - 盲盒玩偶设计生成器
+# designer-toy-skill
 
-[English](./README_EN.md) | 中文
+English | [中文](./README.zh.md)
 
-Pop Mart 风格盲盒玩偶/设计师玩具系列设计生成器。这是一个 Claude Code Skill，帮助你设计和生成一致性高的盲盒系列。
+**Generate Pop Mart style blind box figure series with consistent character design**
 
-## 核心能力
+<table>
+<tr>
+<td width="50%" align="center">
+<b>Christmas Cool Boy</b><br/>
+Vinyl Plush Style<br/><br/>
+<img src="examples/christmas-cool-boy/00-collection-group.png" width="400"/>
+</td>
+<td width="50%" align="center">
+<b>Halloween Bear Felt</b><br/>
+Needle Felted Wool Style<br/><br/>
+<img src="examples/halloween-bear-felt/00-collection-group-v2.png" width="400"/>
+</td>
+</tr>
+</table>
 
-- **角色一致性保障**：确保群像和单人图中角色特征完全一致（发色、眼睛、比例）
-- **姿势多样性**：避免全部站姿，提供坐/趴/躺/悬浮等丰富姿势
-- **场景丰富度**：包含打光、背景、氛围的完整场景设计
-- **视觉参考方法**：使用群像作为参考，确保单人图与群像角色一致
+## Features
 
-## 示例
+| Feature | Description |
+|---------|-------------|
+| **Character Consistency** | Ensures identical features between group shots and individual shots |
+| **Visual Reference Method** | Uses group image as reference to maintain consistency |
+| **Pose Diversity** | Sitting, lying, floating poses - not just standing |
+| **Rich Scenes** | Complete scene design with lighting, background, atmosphere |
+| **Multiple Materials** | Vinyl plush, needle felted wool, and more |
 
-### 圣诞小男孩系列 (Christmas Cool Boy)
+---
 
-**群像**
-![Christmas Group](examples/christmas-cool-boy/00-collection-group.png)
+## Quick Start
 
-**单人图（使用群像作为视觉参考生成）**
-![Christmas Sweater](examples/christmas-cool-boy/01-christmas-sweater-v2.png)
+### 1. Install
 
-### 万圣节毛毡熊系列 (Halloween Bear Felt)
-
-**群像**
-![Halloween Group](examples/halloween-bear-felt/00-collection-group-v2.png)
-
-**单人图（使用群像作为视觉参考生成）**
-![Wizard Bear](examples/halloween-bear-felt/04-wizard-v2.png)
-
-## 安装
-
-将 `SKILL.md` 和 `templates/` 目录复制到你的 Claude Code skills 目录：
+Copy files to your Claude Code skills directory:
 
 ```bash
-# 创建 skill 目录
 mkdir -p ~/.claude/skills/designer-toy
-
-# 复制文件
 cp SKILL.md ~/.claude/skills/designer-toy/
 cp -r templates ~/.claude/skills/designer-toy/
 ```
 
-## 使用方法
+### 2. Use
 
-在 Claude Code 中使用 `/designer-toy` 命令启动技能，然后：
-
-1. 告诉 Claude 你想设计的系列主题
-2. Claude 会帮你创建角色锚点和服装锚点
-3. 生成群像
-4. 使用群像作为视觉参考，逐个生成单人图
-5. 进行一致性检查
-
-## 工作流程
+In Claude Code, start a conversation:
 
 ```
-1. 定义角色锚点 → 2. 设计系列款式 → 3. 生成群像
-→ 4. 创建位置映射表 → 5. 逐个生成单人图 → 6. 一致性检查
+Help me design a Christmas themed blind box series with 5 characters
 ```
 
-## 关键技术：视觉参考方法
+Claude will guide you through:
+1. Creating character anchors
+2. Designing outfit variations
+3. Generating group shot
+4. Creating individual shots with visual reference
 
-生成单人图时，**必须同时提供**：
-1. **群像图片** - 作为视觉参考
-2. **位置指示** - 明确指出是群像中的哪个角色
-3. **文字 Prompt** - 补充场景和技术细节
+---
 
-这样可以确保单人图与群像中的角色保持一致。
+## Workflow
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│  1. Character   │───▶│  2. Design      │───▶│  3. Generate    │
+│     Anchor      │    │     Outfits     │    │     Group Shot  │
+└─────────────────┘    └─────────────────┘    └────────┬────────┘
+                                                       │
+┌─────────────────┐    ┌─────────────────┐    ┌────────▼────────┐
+│  6. Consistency │◀───│  5. Generate    │◀───│  4. Position    │
+│     Check       │    │     Individual  │    │     Mapping     │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+```
+
+| Phase | Description |
+|-------|-------------|
+| **Character Anchor** | Lock base features: proportions, face, eyes, skin tone |
+| **Design Outfits** | Create outfit anchors with colors, patterns, accessories |
+| **Generate Group** | Create collection shot with all characters |
+| **Position Mapping** | Document each character's position and features |
+| **Generate Individual** | Use group image as visual reference for each shot |
+| **Consistency Check** | Verify hair color, outfit, proportions match |
+
+---
+
+## Example: Christmas Cool Boy Series
+
+A vinyl plush style blind box series with 5 characters + 1 hidden edition.
+
+### Group Shot
+
+<p align="center">
+<img src="examples/christmas-cool-boy/00-collection-group.png" width="600"/>
+</p>
+
+### Individual Shots (with Visual Reference Method)
+
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="examples/christmas-cool-boy/01-christmas-sweater-v2.png" width="150"/><br/>
+<b>Christmas Sweater</b><br/>
+Standing pose
+</td>
+<td align="center" width="20%">
+<img src="examples/christmas-cool-boy/02-christmas-elf-v2.png" width="150"/><br/>
+<b>Christmas Elf</b><br/>
+Sitting on gift
+</td>
+<td align="center" width="20%">
+<img src="examples/christmas-cool-boy/03-cozy-winter-v2.png" width="150"/><br/>
+<b>Cozy Winter</b><br/>
+Snow angel pose
+</td>
+<td align="center" width="20%">
+<img src="examples/christmas-cool-boy/04-gingerbread-v2.png" width="150"/><br/>
+<b>Gingerbread</b><br/>
+Lying pose
+</td>
+<td align="center" width="20%">
+<img src="examples/christmas-cool-boy/05-starry-snow-night-v2.png" width="150"/><br/>
+<b>Starry Night</b><br/>
+Floating pose
+</td>
+</tr>
+</table>
+
+---
+
+## Example: Halloween Bear Felt Series
+
+A needle felted wool style blind box series with 5 characters + 1 hidden edition.
+
+### Group Shot
+
+<p align="center">
+<img src="examples/halloween-bear-felt/00-collection-group-v2.png" width="600"/>
+</p>
+
+### Individual Shots
+
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="examples/halloween-bear-felt/01-pumpkin-cape.png" width="150"/><br/>
+<b>Pumpkin Cape</b><br/>
+Standing pose
+</td>
+<td align="center" width="20%">
+<img src="examples/halloween-bear-felt/02-little-devil.png" width="150"/><br/>
+<b>Little Devil</b><br/>
+One-leg balance
+</td>
+<td align="center" width="20%">
+<img src="examples/halloween-bear-felt/03-ghost-cape.png" width="150"/><br/>
+<b>Ghost Cape</b><br/>
+Floating pose
+</td>
+<td align="center" width="20%">
+<img src="examples/halloween-bear-felt/04-wizard-v2.png" width="150"/><br/>
+<b>Wizard</b><br/>
+Sitting pose
+</td>
+<td align="center" width="20%">
+<img src="examples/halloween-bear-felt/05-skeleton-hidden.png" width="150"/><br/>
+<b>Skeleton</b><br/>
+Lying pose
+</td>
+</tr>
+</table>
+
+---
+
+## Key Technique: Visual Reference Method
+
+The core innovation is using the **group image as visual reference** when generating individual shots.
+
+### Why This Matters
+
+| Problem | Solution |
+|---------|----------|
+| Hair color changes | Reference group image directly |
+| Material texture inconsistent | AI sees the exact texture to match |
+| Outfit details lost | Position indicator + visual reference |
+| Proportions drift | Locked character anchor + visual check |
+
+### How It Works
+
+When generating each individual shot:
+
+1. **Upload group image** to the AI
+2. **Specify position**: "Generate the character SECOND from LEFT"
+3. **Describe features**: Hair color, outfit, pose
+4. **Add scene details**: Background, lighting, atmosphere
+
+---
+
+## Pose Library
+
+| Category | Pose | Keywords |
+|----------|------|----------|
+| **Sitting** | Cross-legged | `sitting cross-legged on floor` |
+| | On object | `sitting on windowsill, legs dangling` |
+| **Lying** | On back | `lying on back, snow angel pose` |
+| | On stomach | `lying on stomach, chin in hands` |
+| | Curled up | `lying on side, curled up, sleepy` |
+| **Floating** | Levitation | `floating in air, dreamy` |
+| **Dynamic** | One-leg | `standing on one leg, playful` |
+
+---
+
+## Compatibility
+
+| Platform | Status |
+|----------|--------|
+| Claude Code CLI | ✅ Supported |
+| Claude.ai | ✅ Supported (manual prompt) |
+| API | ✅ Supported |
+
+---
 
 ## License
 
-MIT
+MIT License - See [LICENSE](LICENSE) for details.
+
+---
+
+<p align="center">
+Made with ❤️ for designer toy enthusiasts
+</p>
